@@ -1,0 +1,54 @@
+
+
+.Zoom{
+ 
+  transition: all 0.2s linear ;
+}
+
+.Zoom:hover{
+transform: scale(1.05);
+}
+.tagLine {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#madeBysudeep {
+  color: #5e82f4;
+ animation: alternate infinite tagline 10s;
+  font-weight: 500;
+  width: 10ch;
+  overflow: hidden;
+  white-space: nowrap;
+  /* animation: tagline 10s  infinite alternate; */
+  border-right: 3px solid #5e82f4; 
+}
+
+@keyframes tagline {
+  0% {
+      width:0ch;
+  }
+  50% {
+      width: 30ch;
+  }
+}
+
+.iconRotate{
+  animation: iconRotate 1s linear 0s 1;
+}
+
+@keyframes iconRotate {
+  0%{
+    transform : rotate(0);
+  }
+  50%{
+    transform : rotate(360deg) ;
+  }
+}
+
+#nav{
+  height: 70px;
+  /* border : solid 1px red; */
+  background-color: #d7defa;
+}

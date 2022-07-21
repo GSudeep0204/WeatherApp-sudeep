@@ -1,0 +1,21 @@
+google MAP Api
+
+AIzaSyCUn4rKWcNoQGw7AOns0483bG_A7gNgbsY
+
+
+
+Weather API
+
+1ed8289ee0e54db88d1104939222906
+
+
+
+weather Api 
+
+http://api.weatherapi.com/v1/current.json?key=1ed8289ee0e54db88d1104939222906&q=London&aqi=no
+
+
+Open weather Api
+
+api.openweathermap.org/data/2.5/forecast/daily?lat=35&lon=139&cnt=10&appid={3b3b31a29f287937295e38025e10477a}
+
