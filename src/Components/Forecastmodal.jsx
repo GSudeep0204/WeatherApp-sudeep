@@ -37,7 +37,7 @@ export const Forecastmodal = ({data})=> {
           <ModalCloseButton />
           <ModalBody>
           <Box p={'10px'}>
-                            <Box p={'5px'} bg={'#5e82f4'} textAlign={'center'} borderRadius={'30px'} mb={'20px'} >
+                            <Box p={'5px'} bg={'#5e82f4'} textAlign={'center'} borderRadius={'30px'} mb={'20px'} mt="20px">
                                 <Text fontWeight={500} color={'white'} fontSize={'18px'}>{date}</Text>
                                 <Text fontWeight={500} color={'white'} fontSize={'18px'}>{day}</Text>
                             </Box>

@@ -78,7 +78,7 @@ function Details ({e}){
                 </Grid>
 
                 <Grid mt={'40px'} templateColumns={['repeat(2, 1fr)', 'repeat(3, 1fr)', 'repeat(4, 1fr)', 'repeat(5, 1fr)', 'repeat(8, 1fr)']} gap={'20px'}>
-                    {state.forecastData.list.map((e, i) => <Forecastmodal key={i} data={e}  boxShadow='0px 0px 30px 6px #E2E2E2'/>)}
+                    {state.forecastData.daily.map((e, i) => <Forecastmodal key={i} data={e}  boxShadow='0px 0px 30px 6px #E2E2E2'/>)}
                 </Grid>
 
                 <div className='tagLine'>
